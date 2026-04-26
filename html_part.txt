@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutonomusAI Web Trader</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg:       #060b18;
+    --card:     #0d1526;
+    --border:   #1a2540;
+    --accent:   #00d4ff;
+    --green:    #00ff88;
+    --red:      #ff3d6b;
+    --yellow:   #f59e0b;
+    --text:     #e2e8f0;
+    --muted:    #4a6080;
+    --radius:   10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; min-height: 100vh; overflow-x: hidden; }
+
+  /* ---- CANVAS BACKGROUND ---- */
+  #bg-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; opacity: 0.18; }
+
+  #auth-page, #dashboard { position: relative; z-index: 1; }
+
+  /* ---- TICKER TAPE ---- */
+  .ticker-wrap { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(0,212,255,0.05); border-top: 1px solid rgba(0,212,255,0.15); z-index: 50; overflow: hidden; height: 28px; }
+  .ticker { display: flex; animation: ticker-scroll 40s linear infinite; white-space: nowrap; }
+  .ticker-item { padding: 5px 32px; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.04em; }
+  .ticker-item .up   { color: var(--green); }
+  .ticker-item .down { color: var(--red); }
+  @keyframes ticker-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ---- GLOW EFFECTS ---- */
+  .navbar { background: rgba(13,21,38,0.95); border-bottom: 1px solid rgba(0,212,255,0.2); backdrop-filter: blur(10px); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .navbar .logo { font-size: 1.1rem; font-weight: 700; color: var(--accent); text-shadow: 0 0 20px rgba(0,212,255,0.5); }
+  .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; position: relative; overflow: hidden; transition: border-color 0.3s; }
+  .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: 0.6; }
+  .stat-card:hover { border-color: rgba(0,212,255,0.4); }
+  .bot-control { background: var(--card); border: 1px solid rgba(0,212,255,0.2); border-radius: var(--radius); padding: 20px; margin-bottom: 28px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 0 30px rgba(0,212,255,0.05); }
+  .auth-card { background: rgba(13,21,38,0.95); border: 1px solid rgba(0,212,255,0.2); border-radius: var(--radius); padding: 40px; width: 400px; backdrop-filter: blur(20px); box-shadow: 0 0 60px rgba(0,212,255,0.1); }
+  .auth-card h1 { font-size: 1.6rem; margin-bottom: 6px; text-shadow: 0 0 20px rgba(0,212,255,0.4); }
+  .btn { width: 100%; padding: 12px; background: var(--accent); color: #000; border: none; border-radius: 6px; font-size: 0.95rem; cursor: pointer; font-weight: 700; transition: all 0.2s; box-shadow: 0 0 15px rgba(0,212,255,0.3); }
+  .btn:hover { opacity: 0.9; box-shadow: 0 0 25px rgba(0,212,255,0.5); }
+  .btn.green { background: var(--green); color: #000; box-shadow: 0 0 15px rgba(0,255,136,0.3); }
+  .btn.red   { background: var(--red);   color: #fff; box-shadow: 0 0 15px rgba(255,61,107,0.3); }
+  .btn.sm    { width: auto; padding: 6px 14px; font-size: 0.8rem; }
+
+  /* ---- AUTH ---- */
+  #auth-page { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .auth-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px; width: 400px; }
+  .auth-card h1 { font-size: 1.6rem; margin-bottom: 6px; }
+  .auth-card p  { color: var(--muted); margin-bottom: 24px; font-size: 0.9rem; }
+  .tab-row { display: flex; gap: 8px; margin-bottom: 20px; }
+  .tab { flex: 1; padding: 8px; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 6px; cursor: pointer; font-size: 0.85rem; }
+  .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .form-group { margin-bottom: 16px; }
+  .form-group label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 6px; }
+  .form-group input, .form-group select { width: 100%; padding: 10px 14px; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 0.9rem; outline: none; }
+  .form-group input:focus { border-color: var(--accent); }
+  .btn { width: 100%; padding: 12px; background: var(--accent); color: white; border: none; border-radius: 6px; font-size: 0.95rem; cursor: pointer; font-weight: 600; transition: opacity 0.2s; }
+  .btn:hover { opacity: 0.85; }
+  .btn.green  { background: var(--green); }
+  .btn.red    { background: var(--red); }
+  .btn.yellow { background: var(--yellow); color: #000; }
+  .btn.sm     { width: auto; padding: 6px 14px; font-size: 0.8rem; }
+  .auth-switch { text-align: center; margin-top: 16px; font-size: 0.85rem; color: var(--muted); }
+  .auth-switch a { color: var(--accent); cursor: pointer; }
+  .error-msg { color: var(--red); font-size: 0.82rem; margin-top: 8px; text-align: center; }
+
+  /* ---- DASHBOARD ---- */
+  #dashboard { display: none; }
+  .navbar { background: var(--card); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .navbar .logo { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+  .navbar .user-info { display: flex; align-items: center; gap: 12px; font-size: 0.85rem; color: var(--muted); }
+  .navbar .logout-btn { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
+  .navbar .logout-btn:hover { border-color: var(--red); color: var(--red); }
+
+  .main { padding: 24px; max-width: 1200px; margin: 0 auto; }
+  .section-title { font-size: 1rem; font-weight: 600; margin-bottom: 16px; color: var(--text); }
+
+  /* Stats row */
+  .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 28px; }
+  .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+  .stat-card .label { font-size: 0.75rem; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-card .value { font-size: 1.6rem; font-weight: 700; }
+  .stat-card .value.green { color: var(--green); }
+  .stat-card .value.red   { color: var(--red); }
+  .stat-card .value.blue  { color: var(--accent); }
+
+  /* Bot control */
+  .bot-control { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 28px; display: flex; align-items: center; justify-content: space-between; }
+  .bot-status { display: flex; align-items: center; gap: 10px; }
+  .status-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); }
+  .status-dot.running { background: var(--green); box-shadow: 0 0 8px var(--green); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+  .bot-btns { display: flex; gap: 10px; }
+
+  /* Trading animation */
+  #trading-canvas { width: 180px; height: 44px; opacity: 0; transition: opacity 0.5s; }
+  #trading-canvas.active { opacity: 1; }
+  .algo-badge { display:none; align-items:center; gap:6px; background: rgba(0,255,136,0.08); border: 1px solid rgba(0,255,136,0.3); border-radius: 20px; padding: 4px 12px; font-size: 0.72rem; color: var(--green); font-weight: 700; letter-spacing: 0.08em; }
+  .algo-badge.active { display: flex; animation: badge-glow 2s infinite; }
+  .algo-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: pulse 1s infinite; }
+  @keyframes badge-glow { 0%,100%{ box-shadow: 0 0 6px rgba(0,255,136,0.2); } 50%{ box-shadow: 0 0 16px rgba(0,255,136,0.5); } }
+
+  /* Grid */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 28px; }
+
+  /* Accounts */
+  .accounts-list { display: flex; flex-direction: column; gap: 12px; }
+  .account-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: flex; align-items: center; justify-content: space-between; }
+  .account-info .name { font-weight: 600; font-size: 0.95rem; }
+  .account-info .sub  { font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+  .account-actions { display: flex; align-items: center; gap: 8px; }
+  .toggle { position: relative; width: 40px; height: 22px; }
+  .toggle input { opacity: 0; width: 0; height: 0; }
+  .slider { position: absolute; inset: 0; background: var(--border); border-radius: 22px; cursor: pointer; transition: 0.3s; }
+  .slider:before { content: ""; position: absolute; width: 16px; height: 16px; left: 3px; bottom: 3px; background: white; border-radius: 50%; transition: 0.3s; }
+  input:checked + .slider { background: var(--green); }
+  input:checked + .slider:before { transform: translateX(18px); }
+  .del-btn { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 0.75rem; }
+  .del-btn:hover { border-color: var(--red); color: var(--red); }
+  .run-badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; background: var(--green); color: white; }
+  .stop-badge { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; background: var(--border); color: var(--muted); }
+
+  /* Add account form */
+  .add-form { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  /* Logs */
+  .logs-box { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+  .log-select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 6px; font-size: 0.82rem; margin-bottom: 12px; width: 100%; }
+  .log-list { max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 4px; }
+  .log-item { font-size: 0.78rem; padding: 6px 10px; border-radius: 5px; background: var(--bg); border-left: 3px solid var(--border); }
+  .log-item.TRADE  { border-color: var(--green); }
+  .log-item.SIGNAL { border-color: var(--accent); }
+  .log-item.ERROR  { border-color: var(--red); }
+  .log-item .ts    { color: var(--muted); margin-right: 8px; }
+
+  /* Modal */
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 100; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; width: 440px; }
+  .modal h3 { margin-bottom: 20px; }
+
+  /* Profitability Chart */
+  .chart-box { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 28px; }
+  .chart-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 10px; }
+  .chart-toolbar select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 6px 10px; border-radius: 6px; font-size: 0.82rem; cursor: pointer; }
+  .period-btns { display: flex; gap: 6px; }
+  .period-btn { padding: 5px 14px; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 20px; cursor: pointer; font-size: 0.78rem; transition: all 0.2s; }
+  .period-btn.active { background: var(--accent); color: #000; border-color: var(--accent); font-weight: 700; }
+  .chart-stats { display: flex; gap: 20px; flex-wrap: wrap; }
+  .chart-stat { font-size: 0.78rem; color: var(--muted); }
+  .chart-stat span { font-weight: 700; font-size: 0.9rem; }
+  .chart-stat span.pos { color: var(--green); }
+  .chart-stat span.neg { color: var(--red); }
+
+  /* ---- LOADING SCREEN ---- */
+  #loader { position: fixed; inset: 0; background: #060b18; z-index: 9999; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 24px; transition: opacity 0.5s; }
+  #loader.show { display: flex; }
+  #loader.hide { opacity: 0; pointer-events: none; }
+  .loader-candles { display: flex; align-items: flex-end; gap: 6px; height: 60px; }
+  .loader-candle { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .loader-wick { width: 1.5px; background: currentColor; opacity: 0.5; }
+  .loader-body { width: 10px; border-radius: 2px; }
+  .loader-label { font-size: 0.72rem; color: #4a6080; letter-spacing: 0.15em; text-transform: uppercase; }
+  .loader-bar-wrap { width: 180px; height: 3px; background: #1a2540; border-radius: 2px; overflow: hidden; }
+  .loader-bar { height: 100%; background: linear-gradient(90deg, #00d4ff, #00ff88); border-radius: 2px; animation: loader-fill 5s linear forwards; }
+  @keyframes loader-fill { from { width: 0%; } to { width: 100%; } }
+  @keyframes candle-seq {
+    0%,100% { height: var(--h-low); }
+    50%      { height: var(--h-high); }
+  }
+  @keyframes hourglass-flip {
+    0%,45%   { transform: rotate(0deg); }
+    50%,95%  { transform: rotate(180deg); }
+    100%     { transform: rotate(180deg); }
+  }
+  .hg { display:inline-block; animation: hourglass-flip 1.4s ease-in-out infinite; font-style:normal; }
+  #ai-chat-btn { position: fixed; bottom: 48px; right: 24px; z-index: 200; width: 52px; height: 52px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; font-size: 1.4rem; box-shadow: 0 0 24px rgba(0,212,255,0.5); transition: transform 0.2s; }
+  #ai-chat-btn:hover { transform: scale(1.1); }
+  #ai-chat-box { position: fixed; bottom: 112px; right: 24px; z-index: 200; width: 340px; background: var(--card); border: 1px solid rgba(0,212,255,0.25); border-radius: 14px; box-shadow: 0 0 40px rgba(0,212,255,0.1); display: none; flex-direction: column; overflow: hidden; }
+  #ai-chat-box.open { display: flex; }
+  .chat-header { padding: 14px 16px; background: rgba(0,212,255,0.08); border-bottom: 1px solid rgba(0,212,255,0.15); display: flex; align-items: center; justify-content: space-between; }
+  .chat-header span { font-weight: 700; font-size: 0.9rem; color: var(--accent); }
+  .chat-header small { color: var(--muted); font-size: 0.72rem; }
+  .chat-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; }
+  .chat-messages { flex: 1; max-height: 320px; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+  .chat-msg { max-width: 85%; padding: 8px 12px; border-radius: 10px; font-size: 0.82rem; line-height: 1.5; }
+  .chat-msg.ai   { background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.15); color: var(--text); align-self: flex-start; border-bottom-left-radius: 2px; }
+  .chat-msg.user { background: var(--accent); color: #000; align-self: flex-end; border-bottom-right-radius: 2px; font-weight: 600; }
+  .chat-msg.typing { color: var(--muted); font-style: italic; }
+  .chat-input-row { display: flex; gap: 8px; padding: 10px; border-top: 1px solid rgba(0,212,255,0.1); }
+  .chat-input-row input { flex: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; color: var(--text); padding: 8px 10px; font-size: 0.82rem; outline: none; }
+  .chat-input-row input:focus { border-color: var(--accent); }
+  .chat-send { background: var(--accent); border: none; border-radius: 6px; color: #000; padding: 8px 12px; cursor: pointer; font-weight: 700; font-size: 0.82rem; }
+
+  /* ---- MOBILE RESPONSIVE ---- */
+  @media (max-width: 768px) {
+    .main { padding: 12px; }
+    .stats-row { grid-template-columns: repeat(2,1fr); }
+    .grid-2 { grid-template-columns: 1fr; }
+    .bot-control { flex-direction: column; gap: 14px; align-items: flex-start; }
+    .account-card { flex-direction: column; align-items: flex-start; gap: 12px; }
+    .account-actions { flex-wrap: wrap; }
+    .navbar { padding: 10px 14px; }
+    .auth-card { width: 95vw; padding: 24px 16px; }
+    #trading-canvas { display: none; }
+    .chart-toolbar { flex-direction: column; align-items: flex-start; }
+    #ai-chat-box { width: calc(100vw - 20px); right: 10px; }
+    .form-row { grid-template-columns: 1fr; }
+    .balance-grid { grid-template-columns: repeat(2,1fr); }
+  }
+  /* ---- BALANCE + POSITIONS ---- */
+  .balance-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(180px,1fr)); gap: 12px; margin-bottom: 28px; }
+  .balance-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; position: relative; overflow: hidden; }
+  .balance-card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,transparent,var(--green),transparent); }
+  .balance-card .bal-name { font-size:0.72rem; color:var(--muted); margin-bottom:4px; text-transform:uppercase; letter-spacing:0.05em; }
+  .balance-card .bal-val  { font-size:1.3rem; font-weight:700; color:var(--green); }
+  .balance-card .bal-eq   { font-size:0.75rem; color:var(--muted); margin-top:2px; }
+  .pos-card { background:var(--bg); border:1px solid var(--border); border-radius:8px; padding:12px 16px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  .pos-symbol { font-weight:700; color:var(--accent); }
+  .pos-profit { font-weight:700; }
+
+  /* ---- DASHBOARD TABS ---- */
+  .dash-tabs { display:flex; gap:2px; margin-bottom:24px; border-bottom:1px solid var(--border); }
+  .dash-tab { padding:10px 22px; background:transparent; border:none; border-bottom:2px solid transparent;
+              color:var(--muted); cursor:pointer; font-size:0.88rem; font-weight:600; margin-bottom:-1px; transition:all 0.2s; }
+  .dash-tab:hover { color:var(--text); }
+  .dash-tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+  .dash-panel { display:none; }
+  .dash-panel.active { display:block; }
+  /* Account detail card */
+  .acc-detail { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:20px; margin-bottom:16px; }
+  .acc-detail-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+  .acc-detail-name { font-size:1.05rem; font-weight:700; }
+  .acc-detail-sub { font-size:0.78rem; color:var(--muted); margin-top:2px; }
+  .acc-meta { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px; }
+  .acc-meta-item { background:var(--bg); border-radius:6px; padding:10px; text-align:center; }
+  .acc-meta-item .lbl { font-size:0.68rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+  .acc-meta-item .val { font-size:1rem; font-weight:700; margin-top:3px; }
+  .open-trades { margin-top:10px; }
+  .open-trade-row { display:flex; justify-content:space-between; align-items:center; padding:6px 10px;
+                    background:var(--bg); border-radius:6px; margin-bottom:4px; font-size:0.78rem; }
+  .open-trade-row .sym { font-weight:700; color:var(--accent); }
+  .open-trade-row .dir-buy { color:var(--green); }
+  .open-trade-row .dir-sell { color:var(--red); }
+  .open-trade-row .pnl.pos { color:var(--green); }
+  .open-trade-row .pnl.neg { color:var(--red); }
+</style>
+</head>
+<body>
+
+<!-- ANIMATED BACKGROUND -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <svg width="72" height="72" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 0 16px rgba(0,212,255,0.6))">
+    <defs>
+      <linearGradient id="llg1" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0066ff"/></linearGradient>
+      <linearGradient id="llg2" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00d4ff"/></linearGradient>
+      <filter id="lglow"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="url(#llg1)" opacity="0.12" stroke="url(#llg1)" stroke-width="1.5"/>
+    <polygon points="26,7 44,17 44,35 26,45 8,35 8,17" fill="none" stroke="url(#llg1)" stroke-width="0.6" opacity="0.35"/>
+    <line x1="26" y1="2" x2="26" y2="7" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <line x1="48" y1="14" x2="44" y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <line x1="48" y1="38" x2="44" y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <line x1="26" y1="50" x2="26" y2="45" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <line x1="4" y1="38" x2="8" y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <line x1="4" y1="14" x2="8" y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="26" cy="2"  r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <circle cx="48" cy="14" r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <circle cx="48" cy="38" r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <circle cx="26" cy="50" r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <circle cx="4"  cy="38" r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <circle cx="4"  cy="14" r="2" fill="#00d4ff" filter="url(#lglow)"/>
+    <line x1="26" y1="13" x2="26" y2="10" stroke="#00d4ff" stroke-width="1"/>
+    <circle cx="26" cy="9.5" r="1.5" fill="#00ff88" filter="url(#lglow)"/>
+    <rect x="17" y="13" width="18" height="14" rx="3" fill="#0d1526" stroke="url(#llg1)" stroke-width="1"/>
+    <rect x="21" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#lglow)"/>
+    <rect x="29" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#lglow)"/>
+    <rect x="20" y="23" width="7" height="2" rx="1" fill="#00ff88" opacity="0.8"/>
+    <rect x="24" y="27" width="4" height="2" rx="0.5" fill="#1a2540"/>
+    <rect x="18" y="29" width="16" height="10" rx="2" fill="#0d1526" stroke="url(#llg1)" stroke-width="1"/>
+    <rect x="20" y="34" width="2" height="3" fill="#ff3d6b" rx="0.3"/>
+    <rect x="23" y="31" width="2" height="4" fill="#00ff88" rx="0.3"/>
+    <rect x="26" y="32" width="2" height="3" fill="#00ff88" rx="0.3"/>
+    <rect x="29" y="31" width="2" height="4" fill="#ff3d6b" rx="0.3"/>
+    <rect x="12" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+    <rect x="35" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+  </svg>
+
+  <!-- Animated candlesticks -->
+  <div class="loader-candles" id="loader-candles"></div>
+
+  <div style="font-size:1.4rem;font-weight:900;background:linear-gradient(90deg,#00d4ff,#00ff88);-webkit-background-clip:text;-webkit-text-fill-color:transparent">AutonomusAI</div>
+  <div class="loader-label" id="loader-msg">Initialising...</div>
+  <div class="loader-bar-wrap"><div class="loader-bar" id="loader-bar"></div></div>
+</div>
+
+<!-- TICKER TAPE -->
+<div class="ticker-wrap">
+  <div class="ticker" id="ticker">
+    <span class="ticker-item">XAUUSD <span class="up">▲ 2341.50 +0.42%</span></span>
+    <span class="ticker-item">EURUSD <span class="down">▼ 1.0821 -0.18%</span></span>
+    <span class="ticker-item">US30 <span class="up">▲ 38,450 +0.31%</span></span>
+    <span class="ticker-item">GBPUSD <span class="up">▲ 1.2654 +0.09%</span></span>
+    <span class="ticker-item">XAGUSD <span class="down">▼ 27.34 -0.22%</span></span>
+    <span class="ticker-item">USDJPY <span class="up">▲ 151.82 +0.14%</span></span>
+    <span class="ticker-item">NAS100 <span class="up">▲ 17,820 +0.55%</span></span>
+    <span class="ticker-item">USDCAD <span class="down">▼ 1.3612 -0.07%</span></span>
+    <span class="ticker-item">XAUUSD <span class="up">▲ 2341.50 +0.42%</span></span>
+    <span class="ticker-item">EURUSD <span class="down">▼ 1.0821 -0.18%</span></span>
+    <span class="ticker-item">US30 <span class="up">▲ 38,450 +0.31%</span></span>
+    <span class="ticker-item">GBPUSD <span class="up">▲ 1.2654 +0.09%</span></span>
+    <span class="ticker-item">XAGUSD <span class="down">▼ 27.34 -0.22%</span></span>
+    <span class="ticker-item">USDJPY <span class="up">▲ 151.82 +0.14%</span></span>
+    <span class="ticker-item">NAS100 <span class="up">▲ 17,820 +0.55%</span></span>
+    <span class="ticker-item">USDCAD <span class="down">▼ 1.3612 -0.07%</span></span>
+  </div>
+</div>
+
+<!-- ================================================================ AUTH PAGE -->
+
+<!-- AI CHAT WIDGET -->
+<button id="ai-chat-btn" onclick="toggleChat()" title="AI Assistant">🤖</button>
+<div id="ai-chat-box">
+  <div class="chat-header">
+    <div><span>⚡ AutonomusAI</span><br><small>Your trading assistant</small></div>
+    <button class="chat-close" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <div class="chat-msg ai">Hey! I'm your AI trading assistant. Ask me anything about your trades, market conditions, or bot status.</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">
+      <button onclick="quickAsk('What is SMC?')" style="background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);color:var(--accent);padding:4px 10px;border-radius:12px;font-size:0.72rem;cursor:pointer">What is SMC?</button>
+      <button onclick="quickAsk('Best time to trade?')" style="background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);color:var(--accent);padding:4px 10px;border-radius:12px;font-size:0.72rem;cursor:pointer">Best time to trade?</button>
+      <button onclick="quickAsk('What is an order block?')" style="background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);color:var(--accent);padding:4px 10px;border-radius:12px;font-size:0.72rem;cursor:pointer">Order blocks?</button>
+      <button onclick="quickAsk('Bot status')" style="background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);color:var(--accent);padding:4px 10px;border-radius:12px;font-size:0.72rem;cursor:pointer">Bot status</button>
+    </div>
+  </div>
+  <div class="chat-input-row">
+    <input type="text" id="chat-input" placeholder="Ask anything..." onkeydown="if(event.key==='Enter') sendChat()">
+    <button class="chat-send" onclick="sendChat()">Send</button>
+  </div>
+</div>
+
+<!-- ================================================================ AUTH PAGE -->
+<div id="auth-page">
+  <div class="auth-card">
+    <!-- LOGO -->
+    <div style="display:flex;flex-direction:column;align-items:center;margin-bottom:28px">
+      <svg width="90" height="90" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 0 18px rgba(0,212,255,0.5));margin-bottom:14px">
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0066ff"/>
+          </linearGradient>
+          <linearGradient id="lg2" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00d4ff"/>
+          </linearGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <filter id="glow2"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+
+        <!-- Outer hexagon -->
+        <polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="url(#lg1)" opacity="0.12" stroke="url(#lg1)" stroke-width="1.5"/>
+        <!-- Inner hexagon ring -->
+        <polygon points="26,7 44,17 44,35 26,45 8,35 8,17" fill="none" stroke="url(#lg1)" stroke-width="0.6" opacity="0.35"/>
+
+        <!-- Circuit connector lines -->
+        <line x1="26" y1="2"  x2="26" y2="7"  stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="48" y1="14" x2="44" y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="48" y1="38" x2="44" y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="26" y1="50" x2="26" y2="45" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="4"  y1="38" x2="8"  y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="4"  y1="14" x2="8"  y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+
+        <!-- Node dots at hexagon points -->
+        <circle cx="26" cy="2"  r="2" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="48" cy="14" r="2" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="48" cy="38" r="2" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="26" cy="50" r="2" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="4"  cy="38" r="2" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="4"  cy="14" r="2" fill="#00d4ff" filter="url(#glow)"/>
+
+        <!-- ROBOT HEAD -->
+        <!-- Antenna -->
+        <line x1="26" y1="13" x2="26" y2="10" stroke="#00d4ff" stroke-width="1" opacity="0.9"/>
+        <circle cx="26" cy="9.5" r="1.5" fill="#00ff88" filter="url(#glow)"/>
+
+        <!-- Head body -->
+        <rect x="17" y="13" width="18" height="14" rx="3" fill="#0d1526" stroke="url(#lg1)" stroke-width="1"/>
+
+        <!-- Eyes -->
+        <rect x="19.5" y="16.5" width="5" height="4" rx="1" fill="#00d4ff" opacity="0.2"/>
+        <rect x="27.5" y="16.5" width="5" height="4" rx="1" fill="#00d4ff" opacity="0.2"/>
+        <!-- Eye glow pupils -->
+        <rect x="21" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#glow)"/>
+        <rect x="29" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#glow)"/>
+
+        <!-- Mouth / data bar -->
+        <rect x="20" y="23" width="12" height="2" rx="1" fill="#0d1526" stroke="#1a2540" stroke-width="0.5"/>
+        <rect x="20" y="23" width="7" height="2" rx="1" fill="#00ff88" opacity="0.8"/>
+
+        <!-- Neck -->
+        <rect x="24" y="27" width="4" height="2" rx="0.5" fill="#1a2540"/>
+
+        <!-- Body / chest -->
+        <rect x="18" y="29" width="16" height="10" rx="2" fill="#0d1526" stroke="url(#lg1)" stroke-width="1"/>
+
+        <!-- Chest screen - candlestick mini chart -->
+        <rect x="20" y="34" width="2" height="3" fill="#ff3d6b" rx="0.3"/>
+        <line x1="21" y1="33" x2="21" y2="34" stroke="#ff3d6b" stroke-width="0.8"/>
+        <rect x="23" y="31" width="2" height="4" fill="#00ff88" rx="0.3"/>
+        <line x1="24" y1="30" x2="24" y2="31" stroke="#00ff88" stroke-width="0.8"/>
+        <rect x="26" y="32" width="2" height="3" fill="#00ff88" rx="0.3"/>
+        <rect x="29" y="31" width="2" height="4" fill="#ff3d6b" rx="0.3"/>
+        <line x1="30" y1="35" x2="30" y2="36" stroke="#ff3d6b" stroke-width="0.8"/>
+
+        <!-- Arms -->
+        <rect x="12" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+        <rect x="35" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+        <!-- Hand dots -->
+        <circle cx="12" cy="30.5" r="1.2" fill="#00d4ff" opacity="0.6"/>
+        <circle cx="40" cy="30.5" r="1.2" fill="#00d4ff" opacity="0.6"/>
+
+        <!-- AI signal line across top -->
+        <polyline points="10,11 14,8 18,10 22,6 26,9 30,5 34,8 38,6 42,9" fill="none" stroke="url(#lg2)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+      </svg>
+      <div style="font-size:2rem;font-weight:900;background:linear-gradient(90deg,#00d4ff,#00ff88);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-1px;line-height:1">AutonomusAI</div>
+      <div style="font-size:0.7rem;color:#4a6080;letter-spacing:0.18em;text-transform:uppercase;margin-top:6px">Intelligent Trading System</div>
+    </div>
+
+    <div class="tab-row">
+      <button id="login-tab" class="tab active" onclick="switchAuthTab('login')">Login</button>
+      <button id="register-tab" class="tab" onclick="switchAuthTab('register')">Register</button>
+    </div>
+
+    <!-- Login -->
+    <div id="login-form">
+      <div class="form-group">
+        <label>Email or Phone</label>
+        <input type="text" id="login-identifier" placeholder="email@example.com or +27...">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="login-password" placeholder="••••••••">
+      </div>
+      <button class="btn" onclick="doLogin()">Login</button>
+      <div class="error-msg" id="login-error"></div>
+    </div>
+
+    <!-- Register -->
+    <div id="register-form" style="display:none">
+      <div class="form-group">
+        <label>Email (optional)</label>
+        <input type="email" id="reg-email" placeholder="email@example.com">
+      </div>
+      <div class="form-group">
+        <label>Phone (optional)</label>
+        <input type="text" id="reg-phone" placeholder="+27...">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="reg-password" placeholder="••••••••">
+      </div>
+      <button class="btn" onclick="doRegister()">Create Account</button>
+      <div class="error-msg" id="reg-error"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================ DASHBOARD -->
+<div id="dashboard">
+  <nav class="navbar">
+    <div class="logo" style="display:flex;align-items:center;gap:12px">
+      <svg width="42" height="42" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 0 10px rgba(0,212,255,0.6))">
+        <defs>
+          <linearGradient id="nlg1" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0066ff"/>
+          </linearGradient>
+          <linearGradient id="nlg2" x1="0" y1="0" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00ff88"/><stop offset="100%" stop-color="#00d4ff"/>
+          </linearGradient>
+          <filter id="nglow"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <polygon points="26,2 48,14 48,38 26,50 4,38 4,14" fill="url(#nlg1)" opacity="0.12" stroke="url(#nlg1)" stroke-width="1.5"/>
+        <polygon points="26,7 44,17 44,35 26,45 8,35 8,17" fill="none" stroke="url(#nlg1)" stroke-width="0.6" opacity="0.35"/>
+        <line x1="26" y1="2"  x2="26" y2="7"  stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="48" y1="14" x2="44" y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="48" y1="38" x2="44" y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="26" y1="50" x2="26" y2="45" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="4"  y1="38" x2="8"  y2="35" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <line x1="4"  y1="14" x2="8"  y2="17" stroke="#00d4ff" stroke-width="1.5" opacity="0.7"/>
+        <circle cx="26" cy="2"  r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <circle cx="48" cy="14" r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <circle cx="48" cy="38" r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <circle cx="26" cy="50" r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <circle cx="4"  cy="38" r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <circle cx="4"  cy="14" r="2" fill="#00d4ff" filter="url(#nglow)"/>
+        <!-- Robot antenna -->
+        <line x1="26" y1="13" x2="26" y2="10" stroke="#00d4ff" stroke-width="1"/>
+        <circle cx="26" cy="9.5" r="1.5" fill="#00ff88" filter="url(#nglow)"/>
+        <!-- Robot head -->
+        <rect x="17" y="13" width="18" height="14" rx="3" fill="#0d1526" stroke="url(#nlg1)" stroke-width="1"/>
+        <!-- Eyes -->
+        <rect x="21" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#nglow)"/>
+        <rect x="29" y="17.5" width="2" height="2" rx="0.5" fill="#00d4ff" filter="url(#nglow)"/>
+        <!-- Mouth bar -->
+        <rect x="20" y="23" width="7" height="2" rx="1" fill="#00ff88" opacity="0.8"/>
+        <!-- Neck -->
+        <rect x="24" y="27" width="4" height="2" rx="0.5" fill="#1a2540"/>
+        <!-- Body -->
+        <rect x="18" y="29" width="16" height="10" rx="2" fill="#0d1526" stroke="url(#nlg1)" stroke-width="1"/>
+        <!-- Chest candles -->
+        <rect x="20" y="34" width="2" height="3" fill="#ff3d6b" rx="0.3"/>
+        <rect x="23" y="31" width="2" height="4" fill="#00ff88" rx="0.3"/>
+        <rect x="26" y="32" width="2" height="3" fill="#00ff88" rx="0.3"/>
+        <rect x="29" y="31" width="2" height="4" fill="#ff3d6b" rx="0.3"/>
+        <!-- Arms -->
+        <rect x="12" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+        <rect x="35" y="29" width="5" height="2.5" rx="1" fill="#1a2540" stroke="#00d4ff" stroke-width="0.5" opacity="0.8"/>
+      </svg>
+      <div>
+        <div style="font-size:1.2rem;font-weight:900;background:linear-gradient(90deg,#00d4ff,#00ff88);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-0.5px;line-height:1">AutonomusAI</div>
+        <div style="font-size:0.6rem;color:#4a6080;letter-spacing:0.15em;text-transform:uppercase">Web Trader</div>
+      </div>
+    </div>
+    <div class="user-info">
+      <span id="nav-user">user@example.com</span>
+      <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+  </nav>
+
+  <div class="main">
+
+    <!-- Dashboard Tabs -->
+    <div class="dash-tabs">
+      <button class="dash-tab active" onclick="switchTab('overview')">&#128202; Overview</button>
+      <button class="dash-tab" onclick="switchTab('accounts')">&#129302; Accounts</button>
+      <button class="dash-tab" onclick="switchTab('charts')">&#128200; Charts</button>
+      <button class="dash-tab" onclick="switchTab('logs')">&#128203; Logs</button>
+    </div>
+
+    <!-- ===== TAB: OVERVIEW ===== -->
+    <div id="tab-overview" class="dash-panel active">
+      <div class="stats-row">
+        <div class="stat-card"><div class="label">Total Accounts</div><div class="value blue" id="stat-accounts">0</div></div>
+        <div class="stat-card"><div class="label">Active Accounts</div><div class="value green" id="stat-active">0</div></div>
+        <div class="stat-card"><div class="label">Running Bots</div><div class="value green" id="stat-running">0</div></div>
+        <div class="stat-card"><div class="label">Total Trades Today</div><div class="value blue" id="stat-trades">0</div></div>
+      </div>
+      <div class="bot-control">
+        <div class="bot-status">
+          <div class="status-dot" id="global-dot"></div>
+          <div>
+            <div style="font-weight:600" id="global-status-text">Bot Stopped</div>
+            <div style="font-size:0.78rem;color:var(--muted)"></div>
+          </div>
+          <div class="algo-badge" id="algo-badge"><div class="algo-dot"></div>ALGO TRADING ON</div>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px">
+          <canvas id="trading-canvas" width="180" height="44"></canvas>
+          <div class="bot-btns">
+            <button class="btn green sm" onclick="startAllBots()">&#9654; Start All</button>
+            <button class="btn red sm" onclick="stopAllBots()">&#9632; Stop All</button>
+            <button class="btn sm" onclick="refreshAll()">&#8635; Refresh</button>
+          </div>
+        </div>
+      </div>
+      <!-- Account cards with balance + open trades -->
+      <div id="accounts-overview"></div>
+    </div>
+
+    <!-- ===== TAB: ACCOUNTS ===== -->
+    <div id="tab-accounts" class="dash-panel">
+      <div class="grid-2">
+        <div>
+          <div class="section-title">Trading Accounts</div>
+          <div class="accounts-list" id="accounts-list"><div class="empty">No accounts added yet</div></div>
+        </div>
+        <div>
+          <div class="section-title">Add Account</div>
+          <div class="add-form">
+            <div class="form-group"><label>Broker Name</label><input type="text" id="add-broker" placeholder="Exness, ICMarkets..."></div>
+            <div class="form-row">
+              <div class="form-group"><label>Account Login</label><input type="text" id="add-login" placeholder="12345678"></div>
+              <div class="form-group"><label>Password</label><input type="password" id="add-pass" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"></div>
+            </div>
+            <div class="form-group"><label>Server</label><input type="text" id="add-server" placeholder="Exness-MT5Real"></div>
+            <div class="form-group"><label>Risk per Trade (%)</label><input type="number" id="add-risk" value="1" min="0.1" max="50" step="0.1"></div>
+            <button class="btn" onclick="addAccount()">Add Account</button>
+            <div class="error-msg" id="add-error"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB: CHARTS ===== -->
+    <div id="tab-charts" class="dash-panel">
+      <div class="grid-2">
+        <div class="chart-box">
+          <div class="chart-toolbar">
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div class="section-title" style="margin:0">Account Profitability</div>
+              <select id="chart-account-select" onchange="loadAccountChart()"><option value="">Select account...</option></select>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+              <div class="chart-stats">
+                <div class="chart-stat">Net: <span id="acc-chart-net">&#8212;</span></div>
+                <div class="chart-stat">Trades: <span id="acc-chart-trades">&#8212;</span></div>
+                <div class="chart-stat">Best: <span id="acc-chart-best" class="pos">&#8212;</span></div>
+                <div class="chart-stat">Worst: <span id="acc-chart-worst" class="neg">&#8212;</span></div>
+              </div>
+              <div class="period-btns">
+                <button class="period-btn" onclick="setAccPeriod('week')">By Day</button>
+                <button class="period-btn active" onclick="setAccPeriod('month')">By Month</button>
+                <button class="period-btn" onclick="setAccPeriod('year')">By Year</button>
+              </div>
+            </div>
+          </div>
+          <canvas id="acc-profit-chart" height="140"></canvas>
+        </div>
+        <div class="chart-box">
+          <div class="chart-toolbar">
+            <div>
+              <div class="section-title" style="margin:0">Overall Profitability</div>
+              <div style="font-size:0.75rem;color:var(--muted);margin-top:2px">All accounts &#8212; USD</div>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+              <div class="chart-stats">
+                <div class="chart-stat">Net: <span id="all-chart-net">&#8212;</span></div>
+                <div class="chart-stat">Trades: <span id="all-chart-trades">&#8212;</span></div>
+                <div class="chart-stat">Best: <span id="all-chart-best" class="pos">&#8212;</span></div>
+                <div class="chart-stat">Worst: <span id="all-chart-worst" class="neg">&#8212;</span></div>
+              </div>
+              <div class="period-btns">
+                <button class="period-btn" onclick="setAllPeriod('week')">By Day</button>
+                <button class="period-btn active" onclick="setAllPeriod('month')">By Month</button>
+                <button class="period-btn" onclick="setAllPeriod('year')">By Year</button>
+              </div>
+            </div>
+          </div>
+          <canvas id="all-profit-chart" height="140"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TAB: LOGS ===== -->
+    <div id="tab-logs" class="dash-panel">
+      <div class="section-title">Trade Logs</div>
+      <div class="logs-box">
+        <select class="log-select" id="log-account-select" onchange="loadLogs()"><option value="">Select account...</option></select>
+        <div class="log-list" id="log-list"><div class="empty">Select an account to view logs</div></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ================================================================ SCRIPT -->

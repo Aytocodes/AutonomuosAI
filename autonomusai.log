@@ -1,0 +1,1754 @@
+2026-04-24 22:57:52,440 [INFO] AutonomusAI Web Trader started
+2026-04-24 22:57:52,441 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-24 23:05:32,895 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:18,407 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:25,149 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:27,031 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:27,369 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:27,854 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:28,037 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:28,115 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:28,205 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:39,401 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:40,606 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:48,953 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:50,070 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:50,222 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-24 23:07:50,327 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:19:31,133 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:19:31,134 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:19:31,136 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:20:49,030 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:20:50,406 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:21:34,611 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:21:34,612 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:21:34,614 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:21:45,511 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:22:07,037 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:24:03,399 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:24:03,399 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:30:29,598 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:35:47,660 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:35:47,660 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:35:47,663 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:36:32,880 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:36:54,916 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:36:56,063 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:36:56,324 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:36:56,494 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:39,348 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:51,681 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:52,035 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:52,495 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:52,631 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:52,759 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:53,019 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:37:57,246 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:46:57,988 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:00,597 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:55:00,599 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:55:00,600 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:55:18,346 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:19,154 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:19,584 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:19,720 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:19,844 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:55:37,471 [WARNING] (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Tshepo Ayto\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-04-25 06:56:13,573 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:56:13,575 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:56:13,578 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:56:32,335 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:56:32,336 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:58:59,101 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:58:59,102 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 06:58:59,103 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 06:59:28,465 [INFO] AutonomusAI Web Trader started
+2026-04-25 06:59:28,466 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 07:03:52,555 [INFO] AutonomusAI Web Trader started
+2026-04-25 07:03:52,555 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 07:40:17,710 [INFO] Account 1 stopped
+2026-04-25 08:07:03,676 [INFO] Account 3 stopped
+2026-04-25 08:07:24,370 [INFO] Account 2 stopped
+2026-04-25 08:07:35,117 [INFO] Account 2 stopped
+2026-04-25 08:07:36,280 [INFO] Account 2 stopped
+2026-04-25 08:07:36,421 [INFO] Account 2 stopped
+2026-04-25 08:08:01,554 [INFO] Account 2 stopped
+2026-04-25 12:11:29,626 [INFO] AutonomusAI Web Trader started
+2026-04-25 12:11:29,626 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 12:11:49,987 [INFO] AutonomusAI Web Trader started
+2026-04-25 12:11:49,988 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 12:11:49,993 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 12:31:40,686 [INFO] AutonomusAI Web Trader started
+2026-04-25 12:31:40,686 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:15:24,591 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:15:24,593 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:19:02,691 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:19:02,693 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:23:02,876 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:23:02,876 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:41:52,998 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:41:53,000 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:44:09,947 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:44:09,948 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 13:44:09,951 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 13:45:25,171 [INFO] AutonomusAI Web Trader started
+2026-04-25 13:45:25,173 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 14:19:14,949 [INFO] AutonomusAI Web Trader started
+2026-04-25 14:19:14,950 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 14:19:14,954 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 14:21:16,877 [INFO] AutonomusAI Web Trader started
+2026-04-25 14:21:16,878 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 14:26:32,064 [INFO] AutonomusAI Web Trader started
+2026-04-25 14:26:32,065 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 15:02:29,347 [INFO] Account 2 stopped
+2026-04-25 15:15:28,727 [INFO] AutonomusAI Web Trader started
+2026-04-25 15:15:28,728 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 16:15:25,122 [INFO] AutonomusAI Web Trader started
+2026-04-25 16:15:25,123 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 16:15:25,125 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 16:17:03,899 [INFO] AutonomusAI Web Trader started
+2026-04-25 16:17:03,900 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 16:17:28,142 [INFO] Account 4 started
+2026-04-25 16:17:40,669 [INFO] Account 4 started
+2026-04-25 16:18:15,069 [INFO] Account 4 started
+2026-04-25 16:18:48,393 [INFO] Account 4 stopped
+2026-04-25 16:18:57,403 [INFO] Account 4 started
+2026-04-25 16:21:21,467 [INFO] Account 4 started
+2026-04-25 16:23:00,638 [INFO] Account 4 stopped
+2026-04-25 16:23:05,704 [INFO] Account 4 started
+2026-04-25 16:29:42,846 [INFO] Account 4 started
+2026-04-25 16:29:56,106 [INFO] Account 4 started
+2026-04-25 16:30:14,426 [INFO] Account 4 started
+2026-04-25 16:32:56,179 [INFO] Account 4 started
+2026-04-25 16:32:58,228 [INFO] Account 4 started
+2026-04-25 16:32:59,088 [INFO] Account 4 started
+2026-04-25 16:32:59,843 [INFO] Account 4 started
+2026-04-25 16:35:20,294 [INFO] Account 4 started
+2026-04-25 16:35:21,023 [INFO] Account 4 started
+2026-04-25 16:35:21,795 [INFO] Account 4 started
+2026-04-25 16:35:21,965 [INFO] Account 4 started
+2026-04-25 16:35:22,109 [INFO] Account 4 started
+2026-04-25 16:35:22,267 [INFO] Account 4 started
+2026-04-25 16:35:22,404 [INFO] Account 4 started
+2026-04-25 16:35:22,558 [INFO] Account 4 started
+2026-04-25 16:35:22,704 [INFO] Account 4 started
+2026-04-25 16:35:22,859 [INFO] Account 4 started
+2026-04-25 16:35:22,994 [INFO] Account 4 started
+2026-04-25 16:35:23,126 [INFO] Account 4 started
+2026-04-25 16:35:23,329 [INFO] Account 4 started
+2026-04-25 16:35:24,110 [INFO] Account 4 started
+2026-04-25 16:35:24,803 [INFO] Account 4 started
+2026-04-25 16:35:25,871 [INFO] Account 4 started
+2026-04-25 16:35:43,236 [INFO] Account 4 started
+2026-04-25 16:35:49,870 [INFO] Account 4 started
+2026-04-25 16:35:50,669 [INFO] Account 4 started
+2026-04-25 16:35:51,299 [INFO] Account 4 started
+2026-04-25 16:35:51,467 [INFO] Account 4 started
+2026-04-25 16:35:51,620 [INFO] Account 4 started
+2026-04-25 16:35:51,763 [INFO] Account 4 started
+2026-04-25 16:35:51,928 [INFO] Account 4 started
+2026-04-25 16:35:52,167 [INFO] Account 4 started
+2026-04-25 16:40:33,236 [INFO] Account 4 started
+2026-04-25 16:40:34,295 [INFO] Account 4 started
+2026-04-25 16:40:34,914 [INFO] Account 4 started
+2026-04-25 16:40:35,043 [INFO] Account 4 started
+2026-04-25 16:40:35,162 [INFO] Account 4 started
+2026-04-25 16:40:35,299 [INFO] Account 4 started
+2026-04-25 16:40:35,421 [INFO] Account 4 started
+2026-04-25 16:40:35,549 [INFO] Account 4 started
+2026-04-25 16:40:35,669 [INFO] Account 4 started
+2026-04-25 16:40:35,793 [INFO] Account 4 started
+2026-04-25 16:40:35,914 [INFO] Account 4 started
+2026-04-25 16:40:36,041 [INFO] Account 4 started
+2026-04-25 16:40:36,163 [INFO] Account 4 started
+2026-04-25 16:40:36,298 [INFO] Account 4 started
+2026-04-25 16:40:36,426 [INFO] Account 4 started
+2026-04-25 16:40:36,564 [INFO] Account 4 started
+2026-04-25 16:40:36,687 [INFO] Account 4 started
+2026-04-25 16:40:36,812 [INFO] Account 4 started
+2026-04-25 16:40:36,934 [INFO] Account 4 started
+2026-04-25 16:40:37,061 [INFO] Account 4 started
+2026-04-25 16:40:37,181 [INFO] Account 4 started
+2026-04-25 16:40:37,307 [INFO] Account 4 started
+2026-04-25 16:40:37,431 [INFO] Account 4 started
+2026-04-25 16:40:37,554 [INFO] Account 4 started
+2026-04-25 16:40:37,677 [INFO] Account 4 started
+2026-04-25 16:40:37,799 [INFO] Account 4 started
+2026-04-25 16:40:37,942 [INFO] Account 4 started
+2026-04-25 16:40:38,063 [INFO] Account 4 started
+2026-04-25 16:40:38,218 [INFO] Account 4 started
+2026-04-25 16:40:38,660 [INFO] Account 4 started
+2026-04-25 16:40:38,793 [INFO] Account 4 started
+2026-04-25 16:40:38,941 [INFO] Account 4 started
+2026-04-25 16:40:39,102 [INFO] Account 4 started
+2026-04-25 16:40:39,207 [INFO] Account 4 started
+2026-04-25 16:40:39,340 [INFO] Account 4 started
+2026-04-25 16:40:39,480 [INFO] Account 4 started
+2026-04-25 16:40:39,615 [INFO] Account 4 started
+2026-04-25 16:40:39,747 [INFO] Account 4 started
+2026-04-25 16:40:39,880 [INFO] Account 4 started
+2026-04-25 16:40:40,004 [INFO] Account 4 started
+2026-04-25 16:40:40,132 [INFO] Account 4 started
+2026-04-25 16:40:40,356 [INFO] Account 4 started
+2026-04-25 16:40:41,531 [INFO] Account 4 started
+2026-04-25 16:42:24,113 [INFO] Account 4 started
+2026-04-25 16:48:25,577 [INFO] AutonomusAI Web Trader started
+2026-04-25 16:48:25,579 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 16:48:53,735 [INFO] Account 4 started
+2026-04-25 16:48:53,736 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:48:53,806 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:48:54,845 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:48:55,896 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:48:56,911 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:48:58,263 [INFO] [Acc 4] US500m -- no signal
+2026-04-25 16:49:58,845 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:49:59,872 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:50:00,931 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:50:01,490 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:51:03,051 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:51:04,086 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:51:05,191 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:51:05,756 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:52:07,340 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:52:08,390 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:52:09,470 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:52:10,024 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:53:08,437 [INFO] Account 4 stopped
+2026-04-25 16:53:11,194 [INFO] Account 4 started
+2026-04-25 16:53:11,195 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:53:11,247 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:53:12,247 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:53:13,333 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:53:13,886 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:53:14,487 [INFO] Account 4 stopped
+2026-04-25 16:53:16,520 [INFO] Account 4 started
+2026-04-25 16:53:16,521 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:53:16,572 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:53:17,608 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:53:18,665 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:53:19,233 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:53:19,748 [INFO] Account 4 stopped
+2026-04-25 16:53:21,789 [INFO] Account 4 started
+2026-04-25 16:53:21,790 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:53:21,843 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:53:22,891 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:53:23,974 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:53:24,545 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:53:31,756 [INFO] Account 4 stopped
+2026-04-25 16:53:45,925 [INFO] Account 4 started
+2026-04-25 16:53:45,926 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:53:45,984 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:53:46,991 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:53:48,080 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:53:48,626 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:54:20,028 [INFO] Account 4 stopped
+2026-04-25 16:54:21,992 [INFO] Account 4 started
+2026-04-25 16:54:21,993 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:54:22,043 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:54:23,076 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:54:24,127 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:54:24,687 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:54:24,994 [INFO] Account 4 stopped
+2026-04-25 16:54:27,869 [INFO] Account 4 stopped
+2026-04-25 16:54:30,236 [INFO] Account 4 started
+2026-04-25 16:54:30,237 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 16:54:30,286 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:54:31,334 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:54:32,411 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:54:32,952 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:55:34,547 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:55:35,596 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:55:36,648 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:55:37,217 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:56:38,784 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:56:39,808 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:56:40,862 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:56:41,406 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:57:42,976 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:57:44,031 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:57:45,088 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:57:45,632 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:58:47,240 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:58:48,275 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:58:49,346 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:58:49,888 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 16:59:51,447 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 16:59:52,464 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 16:59:53,531 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 16:59:54,095 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:00:55,683 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:00:56,723 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:00:57,768 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:00:58,327 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:01:59,924 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:02:00,971 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:02:02,039 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:02:02,584 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:03:04,197 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:03:05,207 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:03:06,277 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:03:06,843 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:04:08,409 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:04:09,437 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:04:10,503 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:04:11,164 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:05:12,768 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:05:13,886 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:05:15,033 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:05:15,669 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:06:17,241 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:06:18,249 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:06:19,322 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:06:19,943 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:07:11,565 [INFO] AutonomusAI Web Trader started
+2026-04-25 17:07:11,567 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 17:18:30,154 [INFO] AutonomusAI Web Trader started
+2026-04-25 17:18:30,155 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 17:19:09,025 [INFO] Account 4 started
+2026-04-25 17:19:09,026 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 17:19:09,082 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:19:09,616 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:19:10,178 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:19:11,264 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:20:13,371 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:20:13,896 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:20:14,472 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:20:15,544 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:21:17,661 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:21:18,197 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:21:18,768 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:21:19,892 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:22:21,998 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:22:22,526 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:22:23,087 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:22:24,162 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:23:26,253 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:23:26,762 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:23:27,318 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:23:28,360 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:24:30,451 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:24:30,979 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:24:31,539 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:24:32,595 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:25:34,681 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:25:35,212 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:25:35,771 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:25:36,845 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:26:38,890 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:26:39,419 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:26:39,978 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:26:41,065 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:27:43,179 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:27:43,709 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:27:44,270 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:27:45,367 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:28:47,463 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:28:47,981 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:28:48,539 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:28:49,575 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:29:51,651 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:29:52,167 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:29:52,724 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:29:53,789 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:30:55,896 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:30:56,437 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:30:56,998 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:30:58,076 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:32:00,145 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:32:00,686 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:32:01,251 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:32:02,314 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:33:04,423 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:33:04,946 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:33:05,509 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:33:06,604 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:34:08,699 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:34:09,227 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:34:09,801 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:34:10,878 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:34:57,050 [INFO] Account 4 stopped
+2026-04-25 17:35:03,438 [INFO] Account 4 started
+2026-04-25 17:35:03,440 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 17:35:03,548 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:35:04,149 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:35:04,763 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:35:05,904 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:36:08,001 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:36:08,503 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:36:09,032 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:36:10,113 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:37:12,170 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:37:12,673 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:37:13,226 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:37:14,307 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:38:16,440 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:38:16,946 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:38:17,512 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:38:18,592 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:39:20,679 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:39:21,216 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:39:21,773 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:39:22,836 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:40:24,965 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:40:25,491 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:40:26,052 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:40:27,141 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:41:29,227 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:41:29,761 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:41:30,317 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:41:31,355 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:42:33,452 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:42:33,977 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:42:34,539 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:42:35,668 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:43:37,727 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:43:38,262 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:43:38,817 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:43:39,864 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:44:41,957 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:44:42,467 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:44:43,022 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:44:44,103 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:45:46,221 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:45:46,746 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:45:47,304 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:45:48,393 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:46:50,506 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:46:51,022 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:46:51,594 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:46:52,656 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:47:54,740 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:47:55,268 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:47:55,851 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:47:56,932 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:48:59,046 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:48:59,576 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:49:00,144 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:49:01,209 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:50:03,343 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:50:03,872 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:50:04,432 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:50:05,477 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:51:07,603 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:51:08,133 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:51:08,689 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:51:09,769 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:52:11,857 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:52:12,388 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:52:12,942 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:52:13,981 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:53:16,050 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:53:16,569 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:53:17,130 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:53:18,210 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:54:20,337 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:54:20,871 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:54:21,429 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:54:22,518 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:55:24,599 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:55:25,136 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:55:25,702 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:55:26,785 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:56:28,934 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:56:29,466 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:56:30,025 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:56:31,114 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:57:33,217 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:57:33,737 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:57:34,300 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:57:35,384 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:58:37,461 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:58:37,986 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:58:38,531 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:58:39,610 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 17:59:41,706 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 17:59:42,219 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 17:59:42,757 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 17:59:43,843 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:00:45,924 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:00:46,448 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:00:47,009 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:00:48,094 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:01:50,148 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:01:50,688 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:01:51,233 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:01:52,295 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:02:54,439 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:02:54,960 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:02:55,529 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:02:56,615 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:03:58,693 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:03:59,194 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:03:59,761 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:04:00,828 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:05:02,971 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:05:03,541 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:05:04,164 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:05:05,285 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:06:07,399 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:06:07,926 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:06:08,476 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:06:09,542 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:07:11,615 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:07:12,154 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:07:12,716 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:07:13,773 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:08:15,874 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:08:16,414 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:08:16,968 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:08:18,078 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:09:20,220 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:09:20,767 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:09:21,380 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:09:22,480 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:09:22,529 [INFO] Account 4 stopped
+2026-04-25 18:09:25,781 [INFO] Account 4 started
+2026-04-25 18:09:25,781 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 18:09:25,831 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:09:26,372 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:09:26,948 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:09:28,094 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:10:30,210 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:10:30,751 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:10:31,326 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:10:32,435 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:11:34,544 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:11:35,075 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:11:35,676 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:11:36,755 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:12:38,880 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:12:39,414 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:12:40,015 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:12:41,123 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:13:43,243 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:13:43,790 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:13:44,371 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:13:45,466 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:14:47,590 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:14:48,129 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:14:48,741 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:14:49,826 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:15:52,202 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:15:52,798 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:15:53,380 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:15:54,466 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:16:56,588 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:16:57,125 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:16:57,734 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:16:58,833 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:18:00,973 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:18:01,521 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:18:02,108 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:18:03,196 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:19:05,301 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:19:05,837 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:19:06,454 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:19:07,524 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:20:09,635 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:20:10,175 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:20:10,771 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:20:11,902 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:21:14,034 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:21:14,581 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:21:15,213 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:21:16,323 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:22:18,433 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:22:18,970 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:22:19,546 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:22:20,578 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:23:22,644 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:23:23,186 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:23:23,777 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:23:24,869 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:24:26,981 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:24:27,527 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:24:28,118 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:24:29,190 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:25:31,270 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:25:31,807 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:25:32,391 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:25:33,486 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:26:35,596 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:26:36,138 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:26:36,697 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:26:37,778 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:27:39,846 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:27:40,377 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:27:40,942 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:27:42,044 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:28:44,132 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:28:44,672 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:28:45,235 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:28:46,319 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:29:48,424 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:29:48,929 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:29:49,505 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:29:50,593 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:30:52,685 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:30:53,204 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:30:53,750 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:30:54,827 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:31:56,939 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:31:57,462 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:31:58,029 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:31:59,082 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:33:01,175 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:33:01,697 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:33:02,252 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:33:03,311 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:34:05,440 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:34:06,016 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:34:06,623 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:34:07,757 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:35:09,917 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:35:10,502 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:35:11,111 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:35:12,268 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:36:14,421 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:36:14,930 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:36:15,487 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:36:16,553 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:37:18,657 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:37:19,169 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:37:19,719 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:37:20,793 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:38:22,842 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:38:23,353 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:38:23,911 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:38:24,958 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:39:27,058 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:39:27,566 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:39:28,120 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:39:29,159 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:40:31,218 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:40:31,741 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:40:32,306 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:40:33,362 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:41:35,461 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:41:35,986 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:41:36,550 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:41:37,629 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:42:39,724 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:42:40,267 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:42:40,816 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:42:41,876 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:43:43,974 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:43:44,512 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:43:45,074 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:43:46,109 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:44:48,164 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:44:48,672 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:44:49,231 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:44:50,297 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:45:54,703 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:45:55,244 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:45:55,802 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:45:56,866 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:46:58,949 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:46:59,456 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:47:00,018 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:47:01,105 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:48:03,184 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:48:03,708 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:48:04,278 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:48:05,365 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:49:07,484 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:49:08,006 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:49:08,541 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:49:09,610 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:50:11,662 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:50:12,197 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:50:12,746 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:50:13,802 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:51:15,900 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:51:16,412 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:51:17,004 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:51:18,065 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:52:20,169 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:52:20,693 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:52:21,254 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:52:22,340 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:53:24,462 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:53:24,987 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:53:25,561 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:53:26,638 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:54:28,726 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:54:29,264 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:54:29,816 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:54:30,902 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:55:33,000 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:55:33,521 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:55:34,086 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:55:35,171 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:56:37,252 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:56:37,791 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:56:38,348 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:56:39,435 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:57:41,515 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:57:42,037 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:57:42,600 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:57:43,690 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:58:45,756 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:58:46,268 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:58:46,822 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:58:47,885 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 18:59:49,986 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 18:59:50,518 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 18:59:51,093 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 18:59:52,178 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:00:54,325 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:00:54,872 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:00:55,436 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:00:56,496 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:01:58,566 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:01:59,111 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:01:59,656 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:02:00,739 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:03:02,819 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:03:03,378 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:03:03,967 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:03:05,069 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:04:07,160 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:04:07,699 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:04:08,241 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:04:09,309 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:05:11,455 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:05:12,043 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:05:12,666 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:05:13,811 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:06:15,923 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:06:16,467 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:06:17,022 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:06:18,148 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:07:20,237 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:07:20,777 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:07:21,341 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:07:22,426 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:08:24,520 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:08:25,062 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:08:25,634 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:08:26,672 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:09:28,797 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:09:29,320 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:09:29,880 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:09:30,949 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:10:33,078 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:10:33,618 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:10:34,177 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:10:35,265 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:11:37,303 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:11:37,842 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:11:38,422 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:11:39,486 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:12:41,607 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:12:42,145 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:12:42,757 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:12:43,826 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:13:45,881 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:13:46,385 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:13:46,940 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:13:48,027 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:14:50,153 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:14:50,675 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:14:51,252 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:14:52,354 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:15:54,430 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:15:54,968 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:15:55,529 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:15:56,661 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:16:58,763 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:16:59,272 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:16:59,848 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:17:00,922 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:18:02,964 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:18:03,470 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:18:04,039 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:18:05,106 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:19:07,215 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:19:07,737 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:19:08,316 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:19:09,417 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:20:11,537 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:20:12,066 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:20:12,615 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:20:13,693 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:21:15,819 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:21:16,350 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:21:16,976 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:21:18,100 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:22:20,230 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:22:20,809 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:22:21,372 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:22:22,448 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:23:24,546 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:23:25,069 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:23:25,640 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:23:26,711 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:24:28,815 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:24:29,347 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:24:29,920 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:24:30,996 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:25:33,100 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:25:33,612 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:25:34,183 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:25:35,244 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:26:37,286 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:26:37,796 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:26:38,350 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:26:39,383 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:27:41,460 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:27:41,985 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:27:42,523 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:27:43,587 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:28:45,692 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:28:46,230 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:28:46,784 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:28:47,875 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:29:50,010 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:29:50,530 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:29:51,082 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:29:52,161 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:30:54,272 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:30:54,806 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:30:55,376 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:30:56,431 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:31:58,532 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:31:59,056 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:31:59,616 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:32:00,685 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:33:02,804 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:33:03,341 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:33:03,899 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:33:04,979 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:34:07,074 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:34:07,596 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:34:08,159 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:34:09,229 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:35:11,373 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:35:11,961 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:35:12,581 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:35:13,719 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:36:15,824 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:36:16,335 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:36:16,901 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:36:17,977 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:37:20,041 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:37:20,576 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:37:21,131 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:37:22,222 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:38:24,309 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:38:24,841 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:38:25,394 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:38:26,485 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:39:28,547 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:39:29,066 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:39:29,621 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:39:30,680 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:40:32,783 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:40:33,295 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:40:33,844 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:40:34,934 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:41:37,021 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:41:37,546 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:41:38,105 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:41:39,190 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:42:41,295 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:42:41,819 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:42:42,615 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:42:43,701 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:43:45,793 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:43:46,321 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:43:46,883 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:43:47,942 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:44:50,046 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:44:50,572 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:44:51,118 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:44:52,164 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:45:54,233 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:45:54,729 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:45:55,285 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:45:56,375 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:46:58,456 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:46:58,995 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:46:59,550 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:47:00,646 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:48:02,768 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:48:03,310 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:48:03,874 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:48:04,932 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:49:07,018 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:49:07,560 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:49:08,104 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:49:09,161 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:50:11,270 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:50:11,810 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:50:12,370 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:50:13,443 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:51:15,502 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:51:16,014 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:51:16,568 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:51:17,645 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:52:19,751 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:52:20,266 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:52:20,810 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:52:21,880 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:53:23,965 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:53:24,478 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:53:25,033 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:53:26,106 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:54:28,224 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:54:28,754 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:54:29,303 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:54:30,398 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:55:32,479 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:55:33,004 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:55:33,568 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:55:34,656 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:56:36,752 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:56:37,290 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:56:37,852 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:56:38,887 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:57:41,001 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:57:41,540 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:57:42,111 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:57:43,190 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:58:45,326 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:58:45,848 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:58:46,449 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:58:47,571 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 19:59:49,666 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 19:59:50,191 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 19:59:50,756 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 19:59:51,812 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:00:53,902 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:00:54,430 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:00:54,962 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:00:56,020 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:01:58,093 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:01:58,620 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:01:59,179 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:02:00,287 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:03:02,382 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:03:02,893 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:03:03,462 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:03:04,531 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:04:06,635 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:04:07,168 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:04:07,727 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:04:08,805 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:05:10,973 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:05:11,570 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:05:12,216 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:05:13,414 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:06:15,515 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:06:16,041 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:06:16,603 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:06:17,666 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:07:19,767 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:07:20,309 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:07:20,867 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:07:22,007 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:08:24,095 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:08:24,620 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:08:25,168 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:08:26,219 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:09:05,598 [INFO] AutonomusAI Web Trader started
+2026-04-25 20:09:05,599 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 20:09:24,681 [INFO] Account 4 stopped
+2026-04-25 20:09:28,701 [INFO] Account 4 started
+2026-04-25 20:09:28,702 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-25 20:09:28,759 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:09:30,361 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:09:30,421 [INFO] Account 4 stopped
+2026-04-25 20:31:43,589 [INFO] AutonomusAI Web Trader started
+2026-04-25 20:31:43,591 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 20:32:18,726 [INFO] Account 4 started
+2026-04-25 20:32:18,728 [INFO] [Acc 4] Engine started | risk=2.8%
+2026-04-25 20:32:19,332 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:32:19,953 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:32:20,541 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:32:22,704 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:33:23,794 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:33:24,355 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:33:24,871 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:33:26,972 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:34:28,060 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:34:28,614 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:34:29,144 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:34:31,248 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:35:32,319 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:35:32,882 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:35:33,411 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:35:35,509 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:36:36,580 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:36:37,149 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:36:37,677 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:36:39,768 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:37:40,867 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:37:41,438 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:37:41,983 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:37:44,052 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:38:45,153 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:38:45,701 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:38:46,228 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:38:48,300 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:39:49,376 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:39:49,920 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:39:50,450 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:39:52,542 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:40:53,604 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:40:54,149 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:40:54,675 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:40:56,782 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:41:57,871 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:41:58,422 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:41:58,953 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:42:01,045 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:43:02,136 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:43:02,679 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:43:03,205 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:43:05,275 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:44:06,364 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:44:06,933 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:44:07,457 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:44:09,552 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:45:10,622 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:45:11,188 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:45:11,712 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:45:13,801 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:46:14,943 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:46:15,510 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:46:16,042 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:46:18,117 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:47:19,174 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:47:19,734 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:47:20,249 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:47:22,286 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:48:23,376 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:48:23,943 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:48:24,475 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:48:26,552 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:49:27,606 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:49:28,160 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:49:28,690 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:49:30,776 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:50:31,854 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:50:32,393 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:50:32,926 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:50:35,024 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:51:36,097 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:51:36,642 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:51:37,159 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:51:39,208 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:52:40,278 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:52:40,837 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:52:41,365 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:52:43,436 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:53:44,480 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:53:45,034 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:53:45,563 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:53:47,627 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:54:48,730 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:54:49,351 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:54:49,927 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:54:52,073 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:55:53,171 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:55:53,723 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:55:54,256 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:55:56,333 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:56:57,420 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:56:57,995 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:56:58,518 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:57:00,635 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:58:01,680 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:58:02,249 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:58:02,767 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:58:04,923 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 20:59:06,001 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 20:59:06,578 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 20:59:07,118 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 20:59:09,212 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:00:10,302 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:00:10,869 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:00:11,398 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:00:13,511 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:01:14,608 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:01:15,161 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:01:15,690 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:01:17,773 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:02:18,857 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:02:19,414 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:02:19,943 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:02:22,031 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:03:23,130 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:03:23,682 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:03:24,213 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:03:26,314 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:04:27,388 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:04:27,927 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:04:28,444 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:04:30,510 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:05:31,565 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:05:32,142 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:05:32,682 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:05:34,775 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:06:35,861 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:06:36,436 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:06:36,965 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:06:39,055 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:07:40,134 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:07:40,675 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:07:41,191 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:07:43,291 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:08:44,352 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:08:44,898 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:08:45,416 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:08:47,534 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:09:48,617 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:09:49,159 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:09:49,689 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:09:51,806 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:10:52,883 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:10:53,440 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:10:53,981 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:10:56,058 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:11:57,130 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:11:57,667 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:11:58,183 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:12:00,272 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:13:01,361 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:13:01,922 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:13:02,442 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:13:04,544 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:14:05,634 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:14:06,195 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:14:06,722 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:14:08,827 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:15:09,920 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:15:10,476 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:15:11,007 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:15:13,107 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:16:14,172 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:16:14,732 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:16:15,249 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:16:17,327 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:17:18,402 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:17:18,955 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:17:19,467 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:17:21,517 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:18:22,595 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:18:23,149 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:18:23,665 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:18:25,739 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:19:26,808 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:19:27,349 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:19:27,866 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:19:29,978 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:20:31,058 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:20:31,612 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:20:32,142 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:20:34,225 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:21:35,274 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:21:35,833 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:21:36,360 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:21:38,433 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:22:39,511 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:22:40,073 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:22:40,601 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:22:42,691 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:23:43,770 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:23:44,326 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:23:44,855 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:23:46,914 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:24:48,057 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:24:48,667 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:24:49,256 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:24:51,417 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:25:52,472 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:25:53,039 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:25:53,567 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:25:55,652 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:26:56,732 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:26:57,273 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:26:57,792 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:26:59,888 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:28:00,962 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:28:01,501 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:28:02,017 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:28:04,071 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:29:05,154 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:29:05,709 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:29:06,237 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:29:08,322 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:30:09,412 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:30:09,997 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:30:10,526 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:30:12,619 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:31:13,676 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:31:14,222 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:31:14,728 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:31:17,045 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:32:18,129 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:32:18,669 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:32:19,202 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:32:21,296 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:33:22,354 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:33:22,908 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:33:23,434 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:33:25,539 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:34:26,636 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:34:27,174 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:34:27,675 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:34:29,796 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:35:30,876 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:35:31,432 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:35:31,960 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:35:34,058 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:36:35,144 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:36:35,717 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:36:36,233 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:36:38,368 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:37:39,472 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:37:40,031 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:37:40,550 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:37:42,657 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:38:43,743 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:38:44,306 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:38:44,837 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:38:46,913 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:39:48,007 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 21:39:48,565 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 21:39:49,106 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 21:39:51,219 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 21:40:05,057 [INFO] Account 5 started
+2026-04-25 21:40:05,059 [INFO] [Acc 5] Engine started | risk=1.0%
+2026-04-25 21:47:33,183 [INFO] AutonomusAI Web Trader started
+2026-04-25 21:47:33,184 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 21:52:55,564 [INFO] AutonomusAI Web Trader started
+2026-04-25 21:52:55,565 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 21:55:00,095 [INFO] AutonomusAI Web Trader started
+2026-04-25 21:55:00,097 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 21:58:29,344 [INFO] Account 5 stopped
+2026-04-25 21:58:29,346 [INFO] Account 4 stopped
+2026-04-25 21:59:05,687 [INFO] AutonomusAI Web Trader started
+2026-04-25 21:59:05,689 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-25 21:59:05,692 [INFO] AutonomusAI Web Trader shutting down
+2026-04-25 22:23:51,404 [INFO] Account 5 started
+2026-04-25 22:23:51,443 [INFO] [Acc 5] Engine started | risk=1.0%
+2026-04-25 22:24:56,158 [INFO] Account 4 started
+2026-04-25 22:24:56,160 [INFO] [Acc 4] Engine started | risk=2.8%
+2026-04-25 22:24:57,173 [INFO] [Acc 5] XAGUSDm -- no signal
+2026-04-25 22:24:57,743 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 22:24:57,809 [INFO] [Acc 5] GBPUSDm -- no signal
+2026-04-25 22:24:58,270 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 22:24:58,921 [INFO] [Acc 5] US30m -- no signal
+2026-04-25 22:24:59,360 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 22:24:59,550 [INFO] [Acc 5] EURUSDm -- no signal
+2026-04-25 22:24:59,925 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 22:26:01,710 [INFO] [Acc 5] XAGUSDm -- no signal
+2026-04-25 22:26:02,075 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 22:26:02,299 [INFO] [Acc 5] GBPUSDm -- no signal
+2026-04-25 22:26:02,598 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 22:26:03,436 [INFO] [Acc 5] US30m -- no signal
+2026-04-25 22:26:03,692 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 22:26:04,059 [INFO] [Acc 5] EURUSDm -- no signal
+2026-04-25 22:26:04,274 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 22:27:06,167 [INFO] [Acc 5] XAGUSDm -- no signal
+2026-04-25 22:27:06,392 [INFO] [Acc 4] XAGUSDm -- no signal
+2026-04-25 22:27:06,695 [INFO] [Acc 5] GBPUSDm -- no signal
+2026-04-25 22:27:06,928 [INFO] [Acc 4] GBPUSDm -- no signal
+2026-04-25 22:27:07,790 [INFO] [Acc 5] US30m -- no signal
+2026-04-25 22:27:08,022 [INFO] [Acc 4] US30m -- no signal
+2026-04-25 22:27:08,367 [INFO] [Acc 5] EURUSDm -- no signal
+2026-04-25 22:27:08,599 [INFO] [Acc 4] EURUSDm -- no signal
+2026-04-25 22:27:09,220 [INFO] Account 4 stopped
+2026-04-25 22:27:09,221 [INFO] Account 5 stopped
+2026-04-26 09:32:20,548 [INFO] AutonomusAI Web Trader started
+2026-04-26 09:32:20,550 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 09:51:03,299 [INFO] Account 4 stopped
+2026-04-26 09:51:03,311 [INFO] Account 5 stopped
+2026-04-26 09:57:45,342 [INFO] AutonomusAI Web Trader started
+2026-04-26 09:57:45,344 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 10:08:14,033 [INFO] AutonomusAI Web Trader started
+2026-04-26 10:08:14,034 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 10:10:55,585 [INFO] Account 4 stopped
+2026-04-26 10:17:43,884 [INFO] AutonomusAI Web Trader started
+2026-04-26 10:17:43,885 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 10:19:10,339 [INFO] Account 4 started
+2026-04-26 10:19:10,341 [INFO] [Acc 4] Engine started | risk=3.1%
+2026-04-26 10:25:59,596 [INFO] Account 4 stopped
+2026-04-26 10:26:22,059 [INFO] Account 4 started
+2026-04-26 10:26:22,061 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 10:29:48,595 [INFO] Account 5 started
+2026-04-26 10:29:48,597 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 10:55:20,378 [INFO] Account 5 stopped
+2026-04-26 10:55:26,293 [INFO] Account 5 started
+2026-04-26 10:55:26,295 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 11:12:54,494 [INFO] AutonomusAI Web Trader started
+2026-04-26 11:12:54,495 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 11:13:22,546 [INFO] Account 4 started
+2026-04-26 11:13:22,547 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 11:13:27,007 [INFO] Account 5 started
+2026-04-26 11:13:27,008 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 11:14:35,519 [INFO] Account 6 stopped
+2026-04-26 11:32:09,572 [INFO] AutonomusAI Web Trader started
+2026-04-26 11:32:09,573 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 11:58:16,115 [INFO] Account 4 started
+2026-04-26 11:58:16,117 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 11:58:23,030 [INFO] Account 5 started
+2026-04-26 11:58:23,031 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 12:09:58,652 [INFO] AutonomusAI Web Trader started
+2026-04-26 12:09:58,653 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 12:16:35,733 [INFO] Account 4 started
+2026-04-26 12:16:35,738 [INFO] Account 5 started
+2026-04-26 12:17:40,886 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 12:17:40,900 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 12:18:46,139 [INFO] Account 5 stopped
+2026-04-26 12:20:11,802 [INFO] Account 5 started
+2026-04-26 12:20:11,803 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 12:30:34,328 [INFO] AutonomusAI Web Trader started
+2026-04-26 12:30:34,329 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 12:37:18,729 [INFO] AutonomusAI Web Trader started
+2026-04-26 12:37:18,730 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 12:37:42,027 [INFO] Account 4 started
+2026-04-26 12:37:42,029 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 12:37:44,328 [INFO] Account 5 started
+2026-04-26 12:37:44,329 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 12:41:49,079 [INFO] Account 4 stopped
+2026-04-26 12:41:49,080 [INFO] Account 5 stopped
+2026-04-26 12:41:50,718 [INFO] Account 4 started
+2026-04-26 12:41:50,724 [INFO] Account 5 started
+2026-04-26 12:41:50,726 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 12:41:50,735 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 12:55:52,321 [INFO] AutonomusAI Web Trader started
+2026-04-26 12:55:52,322 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 12:56:17,035 [INFO] Account 4 started
+2026-04-26 12:56:17,039 [INFO] Account 5 started
+2026-04-26 12:56:17,041 [INFO] [Acc 4] Engine started | risk=5.0%
+2026-04-26 12:56:17,057 [INFO] [Acc 5] Engine started | risk=2.0%
+2026-04-26 13:25:04,810 [INFO] AutonomusAI Web Trader started
+2026-04-26 13:25:04,812 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 13:25:07,842 [WARNING] Auto-start failed: (sqlite3.OperationalError) no such column: accounts.auto_start
+[SQL: SELECT accounts.id AS accounts_id, accounts.user_id AS accounts_user_id, accounts.broker_name AS accounts_broker_name, accounts.account_login AS accounts_account_login, accounts.encrypted_password AS accounts_encrypted_password, accounts.server AS accounts_server, accounts.active AS accounts_active, accounts.risk_pct AS accounts_risk_pct, accounts.strategy AS accounts_strategy, accounts.mt5_name AS accounts_mt5_name, accounts.auto_start AS accounts_auto_start, accounts.created_at AS accounts_created_at 
+FROM accounts 
+WHERE accounts.active = 1 AND accounts.auto_start = 1]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-26 13:30:38,254 [INFO] AutonomusAI Web Trader started
+2026-04-26 13:30:38,255 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 13:30:41,273 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-26 13:32:01,808 [INFO] Account 4 started
+2026-04-26 13:32:01,815 [INFO] Account 5 started
+2026-04-26 13:32:01,820 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 13:32:01,845 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 13:32:01,857 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 13:32:01,880 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 13:41:25,238 [INFO] AutonomusAI Web Trader started
+2026-04-26 13:41:25,239 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 13:41:28,268 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-26 13:45:21,853 [INFO] Account 4 started
+2026-04-26 13:46:27,002 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 13:46:27,011 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 13:50:17,274 [INFO] Account 5 stopped
+2026-04-26 13:50:17,280 [INFO] Account 4 stopped
+2026-04-26 13:50:17,289 [INFO] Account 4 stopped
+2026-04-26 13:51:22,502 [INFO] Account 4 started
+2026-04-26 13:52:27,655 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 13:52:27,664 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 13:53:45,443 [INFO] Account 4 stopped
+2026-04-26 13:53:45,464 [INFO] Account 4 started
+2026-04-26 13:54:50,642 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 13:54:50,648 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:03:44,932 [INFO] Account 4 stopped
+2026-04-26 14:03:48,300 [INFO] Account 4 started
+2026-04-26 14:03:48,301 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 14:03:48,309 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:03:56,001 [INFO] Account 5 started
+2026-04-26 14:03:56,002 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:03:56,009 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:03:56,040 [INFO] Account 5 started
+2026-04-26 14:03:56,041 [INFO] Account 5 stopped
+2026-04-26 14:03:56,042 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:03:56,051 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:03:56,473 [INFO] Account 5 stopped
+2026-04-26 14:03:57,132 [INFO] Account 5 started
+2026-04-26 14:03:57,136 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:03:57,146 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:10:18,358 [INFO] Account 5 stopped
+2026-04-26 14:10:19,864 [INFO] Account 5 started
+2026-04-26 14:10:19,865 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:10:19,873 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:18:48,322 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:18:56,061 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:22:52,028 [INFO] AutonomusAI Web Trader started
+2026-04-26 14:22:52,029 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 14:22:55,059 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-26 14:24:09,513 [INFO] AutonomusAI Web Trader started
+2026-04-26 14:24:09,514 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 14:24:12,522 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-26 14:25:23,444 [INFO] Account 5 started
+2026-04-26 14:25:23,445 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:25:23,458 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:25:58,076 [INFO] AutonomusAI Web Trader started
+2026-04-26 14:25:58,077 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-26 14:26:01,094 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-26 14:27:09,080 [INFO] Account 4 started
+2026-04-26 14:28:05,158 [INFO] Account 5 started
+2026-04-26 14:28:05,160 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 14:28:05,173 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:28:05,181 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 14:28:05,189 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:28:22,506 [INFO] Account 4 stopped
+2026-04-26 14:28:23,284 [INFO] Account 4 started
+2026-04-26 14:28:23,285 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 14:28:23,296 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:28:24,992 [INFO] Account 4 stopped
+2026-04-26 14:28:25,999 [INFO] Account 4 started
+2026-04-26 14:28:26,002 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 14:28:26,008 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:43:03,762 [ERROR] Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-26 14:43:03,769 [ERROR] Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-26 14:43:05,201 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:43:26,023 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:58:05,209 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 14:58:26,048 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:13:05,233 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:13:26,046 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:28:05,253 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:28:26,048 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:43:05,264 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:43:26,056 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:58:05,276 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 15:58:26,075 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:13:05,306 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:13:26,085 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:28:05,337 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:28:26,123 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:43:05,362 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:43:26,148 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:58:05,359 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 16:58:26,155 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:13:05,387 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:13:26,166 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:28:05,402 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:28:26,172 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:39:38,455 [INFO] Account 4 stopped
+2026-04-26 17:39:39,767 [INFO] Account 4 started
+2026-04-26 17:39:39,768 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 17:39:39,776 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:39:41,313 [INFO] Account 5 stopped
+2026-04-26 17:40:50,454 [INFO] Account 5 started
+2026-04-26 17:40:50,455 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 17:40:50,465 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:51:23,922 [INFO] Account 4 stopped
+2026-04-26 17:51:23,923 [INFO] Account 5 stopped
+2026-04-26 17:51:26,876 [INFO] Account 4 started
+2026-04-26 17:51:26,884 [INFO] Account 5 started
+2026-04-26 17:51:26,886 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 17:51:26,896 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 17:51:26,905 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 17:51:26,913 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:01:16,331 [INFO] Account 4 stopped
+2026-04-26 18:02:23,113 [INFO] Account 5 stopped
+2026-04-26 18:03:47,968 [INFO] Account 4 stopped
+2026-04-26 18:03:47,984 [INFO] Account 4 stopped
+2026-04-26 18:07:24,560 [INFO] Account 4 stopped
+2026-04-26 18:07:24,565 [INFO] Account 5 stopped
+2026-04-26 18:08:24,752 [INFO] Account 4 started
+2026-04-26 18:08:24,755 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:08:24,765 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:08:27,731 [INFO] Account 5 started
+2026-04-26 18:08:27,733 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:08:27,741 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:08:50,019 [INFO] Account 4 stopped
+2026-04-26 18:08:51,845 [INFO] Account 5 stopped
+2026-04-26 18:09:02,557 [INFO] Account 4 started
+2026-04-26 18:09:02,559 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:09:02,566 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:09:04,660 [INFO] Account 5 started
+2026-04-26 18:09:04,661 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:09:04,670 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:09:14,899 [INFO] Account 4 stopped
+2026-04-26 18:09:17,295 [INFO] Account 5 stopped
+2026-04-26 18:09:24,474 [INFO] Account 4 started
+2026-04-26 18:09:24,479 [INFO] Account 5 started
+2026-04-26 18:09:24,480 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:09:24,488 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:09:24,496 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:09:24,503 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:09:30,633 [INFO] Account 4 stopped
+2026-04-26 18:09:39,322 [INFO] Account 5 stopped
+2026-04-26 18:09:41,101 [INFO] Account 4 started
+2026-04-26 18:09:41,102 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:09:41,109 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:09:55,371 [INFO] Account 5 started
+2026-04-26 18:09:55,373 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:09:55,379 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:10:10,752 [INFO] Account 5 stopped
+2026-04-26 18:10:45,286 [INFO] Account 5 started
+2026-04-26 18:10:45,287 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:10:45,296 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:21:46,430 [INFO] Account 4 stopped
+2026-04-26 18:21:48,646 [INFO] Account 5 stopped
+2026-04-26 18:21:49,879 [INFO] Account 5 started
+2026-04-26 18:21:49,880 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:21:49,887 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:21:52,112 [INFO] Account 4 started
+2026-04-26 18:21:52,116 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:21:52,125 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:22:03,538 [INFO] Account 4 stopped
+2026-04-26 18:22:12,604 [INFO] Account 4 started
+2026-04-26 18:22:12,605 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:22:12,615 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:22:15,742 [INFO] Account 4 stopped
+2026-04-26 18:22:17,328 [INFO] Account 4 started
+2026-04-26 18:22:17,329 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:22:17,337 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:22:50,441 [INFO] Account 4 stopped
+2026-04-26 18:22:52,167 [INFO] Account 4 started
+2026-04-26 18:22:52,168 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:22:52,177 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:25:09,510 [INFO] Account 4 stopped
+2026-04-26 18:25:09,520 [INFO] Account 4 started
+2026-04-26 18:25:09,522 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:25:09,541 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:25:09,574 [INFO] Account 4 stopped
+2026-04-26 18:25:09,596 [INFO] Account 4 started
+2026-04-26 18:25:09,599 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:25:09,607 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:25:09,717 [INFO] Account 4 stopped
+2026-04-26 18:25:09,781 [INFO] Account 5 stopped
+2026-04-26 18:25:23,599 [INFO] Account 4 started
+2026-04-26 18:25:23,601 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-26 18:25:23,609 [INFO] [Acc 4] Outside trading session (weekend) — sleeping 15 min
+2026-04-26 18:25:27,786 [INFO] Account 5 started
+2026-04-26 18:25:27,787 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
+2026-04-26 18:25:27,796 [INFO] [Acc 5] Outside trading session (weekend) — sleeping 15 min
+2026-04-27 00:01:30,607 [INFO] AutonomusAI Web Trader started
+2026-04-27 00:01:30,610 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-27 00:01:33,642 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-27 00:04:46,068 [INFO] AutonomusAI Web Trader started
+2026-04-27 00:04:46,070 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-27 00:04:49,087 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-27 00:14:00,608 [INFO] AutonomusAI Web Trader started
+2026-04-27 00:14:00,609 [INFO] Dashboard: http://0.0.0.0:8000
+2026-04-27 00:14:03,630 [WARNING] Auto-start failed: type object 'Account' has no attribute 'auto_start'
+2026-04-27 00:18:38,394 [WARNING] EA modules not loaded: No module named 'strategy_engine'
+2026-04-27 00:18:38,395 [INFO] Account 4 started
+2026-04-27 00:18:38,399 [INFO] [Acc 4] Engine started | risk=5.0% | strategy=both
+2026-04-27 00:18:40,989 [WARNING] EA modules not loaded: No module named 'strategy_engine'
+2026-04-27 00:18:40,990 [INFO] Account 5 started
+2026-04-27 00:18:40,991 [INFO] [Acc 5] Engine started | risk=2.0% | strategy=both
